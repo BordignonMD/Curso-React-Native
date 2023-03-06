@@ -1,4 +1,4 @@
-# InstaClone
+# Calculator
 
 Application created to simulate MAC calculator application.
 
@@ -36,13 +36,13 @@ git clone https://github.com/BordignonMD/Curso-React-Native.git
 cd /path/to/app
 ```
 
-3.2.2. Install and compile dependencies
+2.2. Install and compile dependencies
 
 ```
 npm install
 ```
 
-4. Start the app
+3. Start the app
 
 ```
 source ~/.bash_profile&&react-native run-android
