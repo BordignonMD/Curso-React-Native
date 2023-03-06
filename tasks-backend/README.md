@@ -1,4 +1,4 @@
-# InstaClone
+# Tasks-Backend
 
 Application developed to serve as a backend for the [Tasks](https://github.com/BordignonMD/Curso-React-Native/tree/master/tasks) application.
 The application provides routes for create, update, read and delete tasks. To carry out the operations it is necessary to be authenticated, through the sign-in and sign-up routes.
