@@ -117,7 +117,7 @@ export default class Auth extends Component {
                 secureTextEntry={true}
               />
             }
-            <TouchableOpacity onPress={this.signinOrSignUp}>
+            <TouchableOpacity onPress={this.signinOrSignUp} disabled={!validForm}>
               <View style={[styles.button, validForm ? {} : { backgroundColor: '#AAA'}]}>
                 <Text style={styles.buttonText}>
                   {this.state.stageNew ? 'Registrar' : 'Entrar'}
@@ -127,7 +127,6 @@ export default class Auth extends Component {
           </View>
           <TouchableOpacity 
             style={styles.signinOrSignUpButton} onPress={() => this.setState({ stageNew: !this.state.stageNew })}
-            disabled={!validForm}
           >
             <Text style={styles.buttonText}>
               {this.state.stageNew ? 'Já possui conta?' : 'Ainda não possui conta?'}
